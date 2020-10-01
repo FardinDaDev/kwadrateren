@@ -18,7 +18,7 @@ public class Uitwerking {
         int z = 0;
 
         //Som variabel
-        int sum = 0;
+        int som = 0;
 
         //Startgetal int i = 1; i is kleiner of gelijk aan getal; i++ voor de increment.
         for (int i = 1; i <= getal; i++) {
@@ -55,20 +55,20 @@ public class Uitwerking {
 
                     Stel getal = 9
 
-                    sum = 36
+                    som = 36
 
                     */
             
-                    sum += kwadraat;
+                    som += kwadraat;
 
                 } else {
                     y += 1;
                     System.out.println("Normale integer: " + i);
 
                     /*Ook voeg je nog de overige integers in de som
-                    sum = 36 + (2 + 4 + 8) = 50
+                    som = 36 + (2 + 4 + 8) = 50
                     */
-                    sum += i;
+                    som += i;
                 }
             } else {
                 //De oneven getallen worden genegeerd.
@@ -95,7 +95,7 @@ public class Uitwerking {
         */
 
         System.out.println(x + " " + y + " " + z);
-        System.out.println("Totaal: " + sum);
+        System.out.println("Totaal: " + som);
 
     }
 
